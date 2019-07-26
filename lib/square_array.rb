@@ -1,3 +1,8 @@
 def square_array(array)
-  return array.map{|ele|ele*ele}
+  i = 0
+  a = []
+  while i < array.length
+    a << array[i] ** 2
+  end
+  return a
 end
